@@ -1,6 +1,6 @@
 ///###
 
-Some Disclaimer About this Repositoy... :)
+# Some Disclaimer About this Repositoy... :)
 
 Download -> Frontend Mentor Webiste -> Open VsCode -> Creating a CSS File -> Finish -> Upload!
 
