@@ -1,0 +1,122 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+    --Verylightgray: hsl(0, 0%, 95%);
+}
+body{
+    margin: 10px auto;
+    font-size: 15px;
+    color: var(--Verylightgray);
+}
+h1{
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+p{
+    line-height: 1.8;
+    /* padding-right: 25px; */
+}
+button{
+    margin-top: 30px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none ;
+    cursor: pointer;
+}
+.container{
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* transform: translate(-50%,-50%); */
+}
+.box{
+    flex: 1;
+    /* width: 300px; */
+    max-width: 390px;
+    padding: 50px;
+    /* min-height: 440px; */
+}
+.orange{
+    background-color: var(--Brightorange);
+    border-radius: 10px 10px 0 0;
+}
+.darkcyan{
+    background-color: var(--Darkcyan);
+}
+.verydarkcyan{
+    background-color: var(--Verydarkcyan);
+    border-radius: 0 0 10px 10px;
+
+}
+.color1{
+    color: var(--Brightorange);
+}
+.color1:hover{
+    background-color: inherit;
+    color: white;
+    border: solid 1px white;
+    transition: all 0.6s ease-in-out;
+}
+.color2{
+    color: var(--Darkcyan);
+}
+.color2:hover{
+    background-color: inherit;
+    color: white;
+    border: solid 1px white;
+    transition: all 0.6s ease-in-out;
+}
+.color3{
+    color: var(--Verydarkcyan);
+}
+.color3:hover{
+    background-color: inherit;
+    color: white;
+    border: solid 1px white;
+    transition: all 0.6s ease-in-out;
+}
+@media (min-width:660px){
+    body{
+        margin: 160px auto;
+    }
+    button{
+        margin-top: 80px;
+    }
+    .container{
+        /* margin: 0; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 505px; */
+    }
+    .box{
+        flex: 1;
+        /* padding-right: 20px; */
+        min-height: 500px;
+        max-width: 320px;
+        width: 100vh;
+        /* height: 50vh; */
+        /* max-height: 600px; */
+        /* width: 350px; */
+    }
+    .orange{
+        border-radius: 10px 0 0 10px;
+    }
+    .verydarkcyan{
+        border-radius: 0 10px 10px 0;
+    }
+
+}
