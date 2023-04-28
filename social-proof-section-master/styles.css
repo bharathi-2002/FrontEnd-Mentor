@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+
+}
+body{
+    margin: 150px 40px;
+    color: var(--VeryDarkMagenta);
+    background: url(./images/bg-pattern-bottom-desktop.svg) center no-repeat;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1260px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.flex-child{
+    flex: 1;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.main-head{
+    font-size: 42px;
+    max-width: 310px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+.main-para{
+    max-width: 435px;
+    line-height: 1.7;
+}
+.section2{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bundle{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* max-width: 460px; */
+    background-color: var(--LightGrayishMagenta);
+    padding: 20px;
+    /* margin: px 0; */
+    /* gap: rem; */
+}   
+.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.box2{
+    /* margin: 0 auto; */
+    /* max-width: 1260px; */
+    padding-top: 50px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    /* position: relative; */
+    min-height: 400px;
+}
+.rate{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.cards{
+    padding: 35px;
+    max-width: 500px;
+    background-color: var(--VeryDarkMagenta);
+    color: var(--White);
+    border-radius: 10px;
+    /* white-space: normal; */
+}
+.top{
+    align-self: flex-start;
+    margin-right: 10px;
+}
+.middle{
+    /* position: absolute; */
+    /* top: 40px; */
+    /* left: 150px; */
+    align-self: center;
+    margin: 0 10px;
+}
+.bottom{
+    /* float: left; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* overflow: hidden; */
+    /* left: 70%; */
+    align-self: flex-end;
+    margin-left: 10px;
+}
+.name{
+    padding-left: 25px;
+}
+.names{
+    font-weight: 700;
+}
+.type{
+    font-weight: 700;
+    color: var(--SoftPink);
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.pic{
+    width: 50px;
+    border-radius: 100%;
+}
+.cust-para{
+    max-width: 322px;
+    font-weight: 500;
+    padding-top: 30px;
+    line-height: 1.7;
+}
+@media (max-width: 700px){
+    body{
+        margin: 70px 20px;
+    }
+    .container{
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .box1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-head{
+        font-size: 30px;
+        text-align: center;
+    }
+    .main-para{
+        text-align: center;
+        max-width: 345px;
+    }
+    .box2{
+        padding-top: 30px 0;
+        flex-direction: column;
+    }
+    .section2{
+        display: block;
+        padding-top: 30px;
+        /* max-width: 380px; */
+    }
+    /* .bottom,.middle{
+        position: initial;
+    } */
+    .top,.middle,.bottom{
+        align-self: unset;
+    }
+    .bundle{
+        padding: 15px 80px;
+        margin: 10px 0 ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: initial;
+    }
+    .rate{
+        padding: 0;
+    }
+    .cards{
+        margin: 20px 0;
+        /* padding: 30px; */
+        /* padding-top: 30px; */
+    }
+    .top,.bottom{
+        margin: 0;
+    }
+    .cust-para{
+        max-width: 295px;
+        padding-top: 30px;
+    }
+
+}
