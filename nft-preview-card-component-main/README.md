@@ -1,3 +1,7 @@
+<h1>Netlify Link</h1>
+
+<a href="https://fmsolved.netlify.app/nft-preview-card-component-main/">nft-preview-card-component-main</a> <br>
+
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
