@@ -1,3 +1,8 @@
+<h1>Netlify Link</h1>
+
+<a href="https://fmsolved.netlify.app/order-summary-component-main/">order-summary-component-main</a> <br>
+
+
 # Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
