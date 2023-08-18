@@ -1,3 +1,8 @@
+<h1>Netlify Link</h1>
+
+<a href="https://fmsolved.netlify.app/product-preview-card-component-main/">product-preview-card-component-main</a> <br>
+
+
 # Frontend Mentor - Product preview card component
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
