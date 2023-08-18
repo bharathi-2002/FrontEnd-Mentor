@@ -1,3 +1,7 @@
+<h1>Netlify Link</h1>
+
+<a href="https://fmsolved.netlify.app/social-proof-section-master/">social-proof-section-master</a> <br>
+
 # Frontend Mentor - Social proof section
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
