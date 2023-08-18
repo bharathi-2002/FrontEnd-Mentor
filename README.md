@@ -11,7 +11,7 @@
 <a href="https://fmsolved.netlify.app/social-proof-section-master/">social-proof-section-master</a> <br>
 <a href="https://fmsolved.netlify.app/stats-preview-card-component-main/">stats-preview-card-component-main</a> <br>
 
-# Some Disclaimer About this Repositoy... :)
+# Some Disclaimer About this Repository... :)
 
 Download -> Frontend Mentor Webiste -> Open VsCode -> Creating a CSS File -> Finish -> Upload!
 
