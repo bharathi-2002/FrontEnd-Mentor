@@ -1,3 +1,8 @@
+<h1>Netlify Link</h1>
+
+<a href="https://fmsolved.netlify.app/qr-code-component-main/">qr-code-component-main</a> <br>
+
+
 # Frontend Mentor - QR code component
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
