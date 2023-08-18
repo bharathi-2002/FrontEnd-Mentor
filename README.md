@@ -1,15 +1,15 @@
 #Netlify Link
-<a href="https://fmsolved.netlify.app/3-column-preview-card-component-main/"></a>
-<a href="https://fmsolved.netlify.app/four-card-feature-section-master/">four-card-feature-section-master</a>
-<a href="https://fmsolved.netlify.app/huddle-landing-page-with-single-introductory-section-master/">huddle-landing-page-with-single-introductory-section-master</a>
-<a href="https://fmsolved.netlify.app/nft-preview-card-component-main/">nft-preview-card-component-main</a>
-<a href="https://fmsolved.netlify.app/order-summary-component-main/">order-summary-component-main</a>
-<a href="https://fmsolved.netlify.app/product-preview-card-component-main/">product-preview-card-component-main</a>
-<a href="https://fmsolved.netlify.app/qr-code-component-main/">qr-code-component-main</a>
-<a href="https://fmsolved.netlify.app/results-summary-component-main/">results-summary-component-main</a>
-<a href="https://fmsolved.netlify.app/single-price-grid-component-master/">single-price-grid-component-master</a>
-<a href="https://fmsolved.netlify.app/social-proof-section-master/">social-proof-section-master</a>
-<a href="https://fmsolved.netlify.app/stats-preview-card-component-main/">stats-preview-card-component-main</a>
+<a href="https://fmsolved.netlify.app/3-column-preview-card-component-main/"></a> <br>
+<a href="https://fmsolved.netlify.app/four-card-feature-section-master/">four-card-feature-section-master</a> <br>
+<a href="https://fmsolved.netlify.app/huddle-landing-page-with-single-introductory-section-master/">huddle-landing-page-with-single-introductory-section-master</a> <br>
+<a href="https://fmsolved.netlify.app/nft-preview-card-component-main/">nft-preview-card-component-main</a> <br>
+<a href="https://fmsolved.netlify.app/order-summary-component-main/">order-summary-component-main</a> <br>
+<a href="https://fmsolved.netlify.app/product-preview-card-component-main/">product-preview-card-component-main</a> <br>
+<a href="https://fmsolved.netlify.app/qr-code-component-main/">qr-code-component-main</a> <br>
+<a href="https://fmsolved.netlify.app/results-summary-component-main/">results-summary-component-main</a> <br>
+<a href="https://fmsolved.netlify.app/single-price-grid-component-master/">single-price-grid-component-master</a> <br>
+<a href="https://fmsolved.netlify.app/social-proof-section-master/">social-proof-section-master</a> <br>
+<a href="https://fmsolved.netlify.app/stats-preview-card-component-main/">stats-preview-card-component-main</a> <br>
 
 # Some Disclaimer About this Repositoy... :)
 
