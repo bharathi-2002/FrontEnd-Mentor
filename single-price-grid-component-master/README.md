@@ -1,3 +1,8 @@
+<h1>Netlify Link</h1>
+
+<a href="https://fmsolved.netlify.app/single-price-grid-component-master/">single-price-grid-component-master</a> <br>
+
+
 # Frontend Mentor - Single price grid component
 
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
