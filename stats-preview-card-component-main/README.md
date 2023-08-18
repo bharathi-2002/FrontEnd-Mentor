@@ -1,3 +1,7 @@
+<h1>Netlify Link</h1>
+
+<a href="https://fmsolved.netlify.app/stats-preview-card-component-main/">stats-preview-card-component-main</a> <br>
+
 # Frontend Mentor - Stats preview card component
 
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
