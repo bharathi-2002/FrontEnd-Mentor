@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fraunces-144pt-s000');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark-purple:#24053E;
+    --davy-grey:#584D62;
+    --light-green:#44FFA1;
+    --ghost-white:#FCF8FF;
+    --white:#FFFfff;
+    --font-fam-heading:'Fraunces 144pt S000', sans-serif;
+    --font-fam-body: 'Manrope', sans-serif;
+}
+body{
+    /* color: var(--white); */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 15px 20px; 
+    border: none;
+    background-color: #44FFA1;
+    font-size: large;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.inner-container{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    max-width: 550px;
+}
+.box{
+}
+.background{
+    /* background: var(--dark-purple); */
+    /* width: 100%; */
+    /* height: 550px; */
+    text-align: center;
+}
+.background h1{
+    margin: 50px 0;
+}
+.hero{
+    width: 100%;
+}
+.section1{
+    text-align: center;
+}
+.num{
+    padding: 20px;
+    /* background-color: rebeccapurple; */
+}
+.founder{
+    width: 100%;
+}
