@@ -11,6 +11,7 @@
     --dark-purple:#24053E;
     --davy-grey:#584D62;
     --light-green:#44FFA1;
+    --ghost-white:#FCF8FF;
     --white:#FFFfff;
     --font-fam-heading:'Fraunces 144pt S000', sans-serif;
     --font-fam-body: 'Manrope', sans-serif;
@@ -91,6 +92,7 @@ button{
 .box2{
     background-color: var(--ghost-white);
     padding-bottom: 20px;
+    color: #24053E;
 }
 .inner-box2{
     /* width: 100%; */
@@ -102,9 +104,9 @@ button{
     margin: 15px 0;
     font-family: 'Fraunces', serif;
 }
-/* {
-    margin: 15px 0;
-} */
+.inner-box2 p{
+    color: #584D62;
+}
 .num{
     font-size: 20px;
     font-family: 'Fraunces', serif;
@@ -125,7 +127,7 @@ button{
     align-items: center;
 }
 .box3{
-    margin: 80px 0;
+    margin: 50px 0;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -167,4 +169,48 @@ button{
 }
 .icons img{
     margin: 0 15px;
+}
+
+@media (min-width: 600px) {
+    .inner-container{
+        max-width: 820px;
+    }
+    .box1{
+        padding-bottom: 90px;
+    }
+    .inner-box1{
+        margin: 0 40px;
+    }
+    .inner-box1 h1{
+        /* width: 350px; */
+    }
+    .image-box{
+        top: 120%;
+    }
+    .inner-box2{
+        margin: 160px 0 40px 0;
+    }
+    .inner-box2 h1, .inner-box2 p{
+        margin: 25px 0;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;text-align: left;
+    }
+    .num{
+        width: 60px;
+        height: 60px;
+    }
+    .block{
+        width: 530px;
+        margin-left: 40px;
+    }
+    
+}
+@media (min-width: 921px) {
+    .inner-container{
+        max-width: 1920px;
+    }
 }
