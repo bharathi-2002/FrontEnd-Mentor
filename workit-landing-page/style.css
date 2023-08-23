@@ -11,13 +11,19 @@
     --dark-purple:#24053E;
     --davy-grey:#584D62;
     --light-green:#44FFA1;
-    --ghost-white:#FCF8FF;
     --white:#FFFfff;
     --font-fam-heading:'Fraunces 144pt S000', sans-serif;
     --font-fam-body: 'Manrope', sans-serif;
 }
 body{
     font-family: 'Manrope', sans-serif;
+}
+a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #44FFA1 ;
 }
 header{
     margin-top: 40px;
@@ -42,7 +48,7 @@ button{
     border: transparent;
     padding: 15px 25px ;
     font-size: large;
-    font-weight: 600;
+    font-weight: bolder;
 }
 .container{
     width: 100%;
@@ -82,22 +88,19 @@ button{
 .hero{
     width: 80%;
 }
-.section{
-    margin: 20px;
-
-}
 .box2{
     background-color: var(--ghost-white);
     padding-bottom: 20px;
 }
 .inner-box2{
+    /* width: 100%; */
+    padding: 20px;
     margin: 110px 0 40px 0;
     text-align: center;
 }
 .inner-box2 h1, .inner-box2 p{
     margin: 15px 0;
     font-family: 'Fraunces', serif;
-    
 }
 /* {
     margin: 15px 0;
@@ -123,6 +126,7 @@ button{
 }
 .box3{
     margin: 80px 0;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
