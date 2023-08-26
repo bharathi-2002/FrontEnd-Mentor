@@ -91,6 +91,7 @@ button{
 }
 .box2{
     background-color: var(--ghost-white);
+    /* background-color: red; */
     padding-bottom: 20px;
     color: #24053E;
 }
@@ -181,9 +182,9 @@ button{
     .inner-box1{
         margin: 0 40px;
     }
-    .inner-box1 h1{
-        /* width: 350px; */
-    }
+    /* .inner-box1 h1{
+        width: 350px;
+    } */
     .image-box{
         top: 120%;
     }
@@ -209,8 +210,41 @@ button{
     }
     
 }
-@media (min-width: 921px) {
+@media (min-width: 1020px) {
     .inner-container{
         max-width: 1920px;
+    }
+    .box1{
+        padding-bottom: 160px;
+    }
+    .inner-box1{
+        margin: 0 120px;
+    }
+    .inner-box1 h1{
+        margin: 120px 0 40px 0;
+    }
+    .hero{
+        /* width: 50%; */
+        max-width: 700px;
+    }
+    .image-box{
+        top: 128%;
+    }
+    
+    .inner-box2{
+        max-width: 1920px;
+        margin: 250px 0 40px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner-box2 h1, .inner-box2 p{
+        margin: 0;
+    }
+    .card{
+        max-width: 500px;
+        flex-direction: column;
+        text-align: center;
     }
 }
