@@ -10,6 +10,7 @@
 <a href="https://fmsolved.netlify.app/single-price-grid-component-master/">single-price-grid-component-master</a> <br> <br>
 <a href="https://fmsolved.netlify.app/social-proof-section-master/">social-proof-section-master</a> <br> <br>
 <a href="https://fmsolved.netlify.app/stats-preview-card-component-main/">stats-preview-card-component-main</a> <br> <br>
+<a href="https://fmsolved.netlify.app/profile-card-component-main/">Profile Card Component</a> <br> <br>
 
 # Some Disclaimer About this Repository... :)
 
