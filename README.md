@@ -11,6 +11,7 @@
 <a href="https://fmsolved.netlify.app/social-proof-section-master/">social-proof-section-master</a> <br> <br>
 <a href="https://fmsolved.netlify.app/stats-preview-card-component-main/">stats-preview-card-component-main</a> <br> <br>
 <a href="https://fmsolved.netlify.app/profile-card-component-main/">Profile Card Component</a> <br> <br>
+<a href="https://fmsolved.netlify.app/workit-landing-page/">workit-landing-page</a> <br> <br>
 
 # Some Disclaimer About this Repository... :)
 
@@ -39,9 +40,3 @@ Then... it will be time to sleep... and At morning... I start to do these once a
 
 
 Thanks For Reading... :) 
-
-
-
-<h2>28-Apr-2023 - 7:35 PM</h2>
-<h3>Done With This Project, I will update if new Newbie Challenges are Given the Website<h3>
-<h4>Now going to Work with Junior Challengs<h4>
