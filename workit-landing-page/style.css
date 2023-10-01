@@ -19,11 +19,32 @@ body{
 img{
     width: 100%;
 }
-.section1{
-    background-color: #24053E;
-    padding: 10px;
-    color: var(--white);
+button{
+    /* margin: 20px 0; */
+    border: none;
+    padding: 15px 25px;
+    background-color: #44FFA1;
+    font-size: 15px;
+    font-weight: 600;
 }
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+/* .inner-container{
+    margin: 20px 0;
+} */
+.pad{
+    padding: 20px;
+}
+.box1{
+    background-color: #24053E;
+    color: var(--white);
+    height: 450px;
+    position: relative;
+}
+/* .section{
+} */
 .header{
     display: flex;
     justify-content: space-between;
@@ -32,8 +53,85 @@ img{
     width: 100px;
 }
 .header-content{
+    margin: 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.header-content h1{
+    margin: 30px 10px;
+}
+.imagebox{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.imagebox img{
+    width: 350px;
+}
+.box2{
+    background-color: #FCF8FF;
+    /* background-color: bisque;     */
+    padding-top: 50px;
+}
+.section2{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.cluster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bubble{
+    width: 50px;
+    height: 50px;
+    border: 1px var(--davy-grey) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.section3{
+    position: relative;
+    /* padding-bottom: 60px; */
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero img{
+    width: 80%;
+}
+.banner{
+    position: absolute;
+    background-color: var(--dark-purple);
+    color: var(--white);
+    padding: 30px;
+    top: 90%;
+}
+.banner p{
+    margin: 20px 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 300px 0 80px 0;
+}
+.footer img{
+    width: 110px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.icons img{
+    width: 30px;
 }
