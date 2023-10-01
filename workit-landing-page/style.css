@@ -19,3 +19,21 @@ body{
 img{
     width: 100%;
 }
+.section1{
+    background-color: #24053E;
+    padding: 10px;
+    color: var(--white);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 100px;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
