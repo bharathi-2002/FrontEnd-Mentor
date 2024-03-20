@@ -17,7 +17,6 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     background-color: var(--Light-pink);
-    background-size: 500px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -27,11 +26,13 @@ body{
 }
 .container{
     width: 100%;
+    max-width: 400px;
     background-color: white;
     padding: 25px;
     border-radius: 10px;
     position: absolute;
     top: 15%;
+    margin: 0 auto;
     /* min-height: 600px; */
 }
 .head1{
@@ -60,10 +61,41 @@ body{
     width: 100%;
     max-width: 220px;
 }
+.question img{
+    padding-left: 25px;
+}
 .answer{
     color: var(--Grayish-purple);
     margin-top: 20px;
 }
 .hide{
     display: none;
+}
+
+@media (min-width:380px) {
+    body{
+        background: url(./assets/images/background-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        /* background-position: ; */
+    }
+    .container{
+        max-width: 500px;
+    }
+    .question h4{
+        max-width: 300px;
+    }
+}
+@media (min-width:500px) {
+    .question h4{
+        max-width: 400px;
+    }
+}
+
+@media (min-width:600px) {
+    .container{
+        max-width: 600px;
+    }
+    .question h4{
+        max-width: 600px;
+    }
 }
