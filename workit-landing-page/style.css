@@ -116,17 +116,15 @@ button{
     justify-content: center;
     align-items: center;
 }
-.box3{
-    height: 600px;
-    
-}
+
 .section3{
-    height: 400px;
+    /* height: 400px; */
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .hero{
     display: flex;
     align-items: center;
@@ -136,12 +134,15 @@ button{
     width: 350px;
 }
 .banner{
+    /* margin: 100%; */
     position: absolute;
     background-color: var(--dark-purple);
     color: var(--white);
     padding: 30px;
-    top: 70%;
-    width: 420px;
+    top: 80%;
+    /* width: 420px; */
+    /* left: 0; */
+    /* right: 0; */
 }
 .banner p{
     margin: 20px 0;
@@ -178,6 +179,12 @@ button{
         margin-top: 100px;
         padding-bottom: 70px;
     }
+    .section3{
+        position: static;
+    }
+    .hero{
+        position: relative;
+    }
     .cluster{
         flex-direction: row;
         justify-content: center;
@@ -202,7 +209,7 @@ button{
     .hero{
         position: absolute;
         left: 0%;
-        /* top: 0; */
+        
     }
     .hero img{
         width: 280px;
@@ -227,15 +234,10 @@ button{
     }
     .section2{
         margin-top: 150px;
-        /* gap: 20px; */
     }
-    /* .section3{
-        max-width: 700px;
-    } */
     .box3{
         max-width: 690px;
         width: 100%;
-        
     }
     .section3{
         position: static;
