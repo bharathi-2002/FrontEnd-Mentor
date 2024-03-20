@@ -28,7 +28,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 ul{
     list-style-type: none;
@@ -43,6 +43,7 @@ p{
     background: var(--Dark-Blue);
     padding: 1.5rem;
     border-radius: 0.625rem;
+    max-width: 400px;
 }
 .container img{
     background-color: var(--Dark-Light-Blue);

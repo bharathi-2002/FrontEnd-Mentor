@@ -1,19 +1,23 @@
-const submitBtn = document.getElementsByClassName("btn-submit");
-const page1 = document.querySelector(".container");
-const page2 = document.querySelector(".thank-you");
+const container = document.querySelector(".container");
+const thankyouContainer = document.querySelector(".thank-you")
 
-console.log(submitBtn)
+const submitBtn = document.getElementById("submit");
+const rateAgain = document.getElementById("rate-again");
 
-for(i=0;i<submitBtn.length;i++){
-    submitBtn[i].addEventListener("click", function (){
-        if(this.parentNode.className === 'container'){
-            if(this.parentNode.classList.contains('hide')){
-                this.parentNode.classList.add('hide');
-            }else{
-                console.log(2)
-            }
-        }else{
-            this.parentNode.classList.remove('hide')
-        }
-    });
-}
+const rating = document.getElementById("rating");
+const rates = document.querySelectorAll(".btn");
+
+submitBtn.addEventListener("click", () => {
+    thankyouContainer.classList.remove("hide");
+    container.style.display = "none";
+})
+rateAgain.addEventListener("click", () => {
+    thankyouContainer.classList.add("hide");
+    container.style.display = "block";
+})
+
+rates.forEach((rate) => {
+    rate.addEventListener("click", ()=> {
+        rating.innerHTML = rate.innerHTML;
+    })
+})
