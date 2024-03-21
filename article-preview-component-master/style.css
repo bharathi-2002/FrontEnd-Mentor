@@ -16,15 +16,14 @@ body{
     background-color: var(--Light-Grayish-Blue);
     padding: 100px 30px;
     color: var(--Very-Dark-Grayish-Blue);
+    font-size: 13px;
 }
-/* img{
-    width: 100%;
-} */
 .container{
     background-color: white;
     border-radius: 15px;
     max-width: 380px;
     margin: 0 auto;
+    position: relative;
 }
 .container .drawers img{
     height: 250px;
@@ -32,7 +31,7 @@ body{
     border-radius: 15px 15px 0 0;
 }
 .container .bigcard{
-    padding: 30px;
+    padding: 30px 30px 20px 30px;
 }
 .container .bigcard .card h2{
     list-style: 1.2;
@@ -45,6 +44,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* padding-top: 10px; */
 }
 .profile .name{
     display: flex;
@@ -59,7 +59,87 @@ body{
     border-radius: 100%;
 }
 .profile .share{
-    width: 100%;
+    /* width: 100%; */
     max-width: 20px;
     height: 20px;
+    background-color: white;
+}
+.profile .share img{
+    width: 20%;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--Very-Dark-Grayish-Blue);
+    padding: 15px 30px ;
+    color: var(--Grayish-Blue);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: -40px;
+    border-radius: 0 0 15px 15px;
+}
+.banner h4{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.banner .img{
+    display: flex;
+    gap: 15px;
+}
+.banner .img img{
+    width: 22px;
+}
+.share{
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    background-color: var(--Grayish-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share img{
+    color: white;
+}
+.hide{
+    display: none;
+}
+@media (min-width: 700px) {
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+        /* height: 280px; */
+    }
+    .container .drawers{
+        display: flex;
+        align-items: center;
+        flex: 35%;
+    }
+    .container .bigcard{
+        flex: 65%;
+        padding: 15px;
+        /* height: 280px; */
+    }
+    .container .drawers img{
+        border-radius: 15px 0 0 15px;
+        /* height: 280px; */
+    }
+}
+@media (min-width: 900px) {
+    .container{
+        max-width: 1000px;
+        height: 400px;
+    }
+    
 }
