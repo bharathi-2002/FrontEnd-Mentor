@@ -13,154 +13,53 @@
     font-family: "Manrope", sans-serif;
 }
 body{
-    background: var(--Light-Grayish-Blue);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-}
-.container{
-    margin: 0 auto;
-    width: 100%;
-    max-width: 400px;
-    padding: 50px 25px;
-    border-radius: 10px;
-    /* background-color: white; */
-}
-/* .container .drawers{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-.container .drawers img{
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    /* object-position: top 10px right 0; */
-    margin-bottom: -40px;
-}
-.card{
-    padding: 20px 30px;
-    background-color: white;
-    border-radius: 0 0 10px 10px;
-    position: relative;
-}
-.card h2{
-    font-weight: 700;
-    margin-bottom: 20px;
+    background-color: var(--Light-Grayish-Blue);
+    padding: 100px 30px;
     color: var(--Very-Dark-Grayish-Blue);
-} 
-.card p{
-    line-height: 1.6;
-    margin-bottom: 20px;
-    color: var(--Desaturated-Dark-Blue);
+}
+/* img{
+    width: 100%;
+} */
+.container{
+    background-color: white;
+    border-radius: 15px;
+    max-width: 380px;
+    margin: 0 auto;
+}
+.container .drawers img{
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.container .bigcard{
+    padding: 30px;
+}
+.container .bigcard .card h2{
+    list-style: 1.2;
+    padding-bottom: 20px;
+}
+.container .card p{
+    padding-bottom: 30px;
 }
 .profile{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 32px;
 }
-.profile img{
-    width: 13%;
+.profile .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile .name p{
+    padding-bottom: 0;
+}
+.container .bigcard .card .profile img{
+    width: 50px;
     border-radius: 100%;
 }
-.profile p{
-    margin-bottom: 0;
-}
-.share{
-    background-color: var(--Light-Grayish-Blue);
-    border-radius: 100%;
-    width: 34px;
-    height: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-.name{
-    margin-left: -10px;
-}
-.name h3{
-    color: var(--Very-Dark-Grayish-Blue);
-}
-.share img{
-    width: 16px;
-}
-.banner{
-    height: 60px;
-    margin-top: -10px;
-    padding: 0 30px;
-    z-index: 1;
-    background-color: var(--Very-Dark-Grayish-Blue);
-    border-radius: 0 0 10px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.banner h4{
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 100;
-    color: var(--Grayish-Blue);
-}
-.banner .share{
-    width: 32px;
-    height: 32px;
-    background: var(--Grayish-Blue);
-}
-.banner .share img{
-    width: 15px;
-}
-.img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-left: -50px;
-}
-.hide{
-    display: none;
-}
-@media (min-width:500px) {
-    .container{
-        max-width: 430px;
-    }
-}
-@media (min-width:600px) {
-    .container{
-        max-width: 470px;
-    }
-}
-@media (min-width: 700px) {
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        max-width: 600px;
-        background-color: white;
-    }
-    .container .drawers{
-        flex: 35%;
-        /* height: 100%; */
-        margin-right: -20px;
-    }
-    .container .drawers img{
-        height: 310px;
-        border-radius: 10px 0 0 10px;
-        margin-bottom: 0;
-    }
-    .container .bigcard{
-        flex: 65%;
-    }
-    .card{
-        padding: 0px;
-    }
-}
-@media (min-width: 800px) {
-    .container{
-        max-width: 800px;
-    }
+.profile .share{
+    width: 100%;
+    max-width: 20px;
+    height: 20px;
 }
