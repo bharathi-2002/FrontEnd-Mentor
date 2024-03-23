@@ -50,6 +50,7 @@ img{
 .container article:first-child{
     text-align: center;
     padding: 0 1.5rem 2rem;
+    /* padding: 0; */
 }
 .container article:first-child p{
     color: var(--Desaturated-Red);
@@ -91,7 +92,6 @@ form label img{
     top: 25%;
     right: 5rem;
     width: 24px;
-    /* display: none; */
 }
 form button{
     position: absolute;
@@ -105,8 +105,58 @@ form button{
 form button:hover{
     background: hsl(0, 80%, 86%);
 }
+.container article:first-child .error{
+    color: red;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
 @media (min-width: 786px){
     body{
         background: url("./images/bg-pattern-desktop.svg") no-repeat center/cover;
+    }
+    .container{
+        min-height: 100vh;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .container article{
+        flex: 1;
+    }
+    .container article picture img{
+        margin: 0;
+    }
+    .container article:first-child{
+        text-align: left;
+        height: auto;
+        /* width: 100%; */
+        /* max-width: 600px; */
+        margin: 0 auto;
+    }
+    /* .container article:nth-child(2) picture img{
+        width: 80vh;
+    } */
+    .container article:first-child p{
+        max-width: 450px;
+    }
+    /* .container article .logo{
+        display: block;
+        padding: 0;
+    } */
+    .container h1{
+        font-size: 4rem;
+        max-width: 450px;
+        letter-spacing: 1rem;
+    }
+    .logo{
+        display: block;
+        padding: 0;
+        width: 300px;
+        position: absolute;
+    }
+    form{
+        width: 450px;
     }
 }
