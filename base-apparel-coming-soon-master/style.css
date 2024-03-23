@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+:root{
+    /* ### Primary */
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+
+    /* ### Neutral */
+
+    --Desaturated-Red: hsl(0, 6%, 24%);
+
+    /* ### Gradients */
+
+    /* - Linear, 
+    135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+    - Linear, 
+    135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
+
+}
+body{
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+.logo{
+    padding: 1.5rem 0 0 1.5rem;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container h1{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--Dark-Grayish-Red);
+}
+.container h1 span{
+    color: var(--Desaturated-Red);
+    font-weight: 300;
+}
+.container article:first-child{
+    text-align: center;
+    padding: 0 1.5rem 2rem;
+}
+.container article:first-child p{
+    color: var(--Desaturated-Red);
+    line-height: 1.5;
+}
+.container article .logo{
+    display: none;
+}
+.container article picture img{
+    width: 100%;
+    margin: 2rem 0;
+}
+form input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    border: 2px solid var(--Desaturated-Red);
+    border-radius: 30px;
+    width: 100%;
+    margin: 2rem 0 0;
+    color: var(--Desaturated-Red);
+}
+form input::placeholder{
+    color: var(--Desaturated-Red);
+}
+@media (min-width: 786px){
+    body{
+        background: url("./images/bg-pattern-desktop.svg") no-repeat center/cover;
+    }
+}
