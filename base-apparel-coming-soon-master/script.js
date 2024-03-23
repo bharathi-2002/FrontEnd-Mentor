@@ -2,7 +2,7 @@ const submitBtn = document.getElementById("btn");
 const img = document.getElementById("img");
 const form = document.querySelector("form")
 const input = document.querySelector("input")
-const label = document.querySelector("label")
+
 
 // submitBtn.addEventListener("click", function(){
 //     if(img.style.display === "none"){
@@ -25,12 +25,15 @@ function validate(e){
     // console.log(inputValue);
     if(inputValue === ''){
         p.innerHTML = "Please fill the input!"
+        img.classList.remove("hide")
         form.parentNode.append(p);
     }else if(!isEmail(inputValue)){
         p.innerHTML = "Incorrect Email!!! Please try once again";
+        img.classList.remove("hide")
         form.parentNode.append(p);
     }
     else{
+        img.classList.add("hide")
         p.remove()
     }
 }
