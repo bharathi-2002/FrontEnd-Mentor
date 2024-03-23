@@ -25,13 +25,21 @@ body{
     margin: 0 auto;
     position: relative;
 }
-.container .drawers img{
-    height: 250px;
+.container .drawers{
+    line-height: 0;
     width: 100%;
+}
+.container .drawers img{
+    /* height: 250px; */
+    width: 100%;
+    /* display: inline-block; */
+    /* float: left; */
     border-radius: 15px 15px 0 0;
 }
 .container .bigcard{
     padding: 30px 30px 20px 30px;
+    width: 100%;
+    height: 100%;
 }
 .container .bigcard .card h2{
     list-style: 1.2;
@@ -83,6 +91,7 @@ body{
 }
 .banner h4{
     text-transform: uppercase;
+    display: inline-flex;
     letter-spacing: 3px;
 }
 .banner .img{
@@ -109,6 +118,7 @@ body{
 }
 @media (min-width: 700px) {
     body{
+        padding: 0;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -118,28 +128,75 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 600px;
-        /* height: 280px; */
+        max-width: 670px;
+        width: 100%;
+        /* height: 266px; */
+        /* height: 270px; */
     }
     .container .drawers{
-        display: flex;
-        align-items: center;
-        flex: 35%;
-    }
-    .container .bigcard{
-        flex: 65%;
-        padding: 15px;
-        /* height: 280px; */
+        /* display: flex; */
+        /* align-items: center; */
+        font-size: 0;
+        display: inline-flex;
+        /* flex: 35%; */
     }
     .container .drawers img{
         border-radius: 15px 0 0 15px;
+        /* display: block; */
+    }
+    .container .bigcard{
+        /* flex: 65%; */
+        padding: 0 20px;
+        /* margin: 25px; */
         /* height: 280px; */
     }
-}
-@media (min-width: 900px) {
-    .container{
-        max-width: 1000px;
-        height: 400px;
+    .container .bigcard .card{
+        /* max-width: 365px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
     }
-    
+    .container .bigcard .card h2{
+        /* max-width: 365px */
+    }
+}
+@media (min-width: 720px) {
+    body{
+        padding: 20px;
+    }
+    .container{
+        max-width: 750px;
+    }
+    .container .bigcard{
+        padding: 15px 20px;
+    }
+}
+@media (min-width: 760px) {
+    body{
+        padding: 20px;
+    }
+    .container{
+        max-width: 750px;
+    }
+    .container .bigcard{
+        padding: 25px;
+    }
+}
+@media (min-width: 800px) {
+    body{
+        padding: 20px;
+    }
+    .container{
+        max-width: 800px;
+    }
+    .container .bigcard{
+        padding: 25px 30px;
+    }
+    .container .bigcard .card{
+        max-width: 360px;
+    }
+    .profile{
+        max-width: 350px;
+    }
 }
