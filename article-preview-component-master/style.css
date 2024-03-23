@@ -63,17 +63,12 @@ body{
     padding-bottom: 0;
 }
 .container .bigcard .card .profile img{
-    width: 50px;
+    width: 40px;
     border-radius: 100%;
 }
 .profile .share{
-    /* width: 100%; */
-    max-width: 20px;
-    height: 20px;
-    background-color: white;
-}
-.profile .share img{
-    width: 20%;
+    background-color: var(--Light-Grayish-Blue);
+    padding: 20px;
 }
 .banner{
     display: flex;
@@ -86,7 +81,8 @@ body{
     bottom: 0;
     left: 0;
     width: 100%;
-    margin-bottom: -40px;
+    height: 70px;
+    margin-bottom: 0px;
     border-radius: 0 0 15px 15px;
 }
 .banner h4{
@@ -146,6 +142,7 @@ body{
     }
     .container .bigcard{
         /* flex: 65%; */
+        margin-left: 5px;
         padding: 0 20px;
         /* margin: 25px; */
         /* height: 280px; */
@@ -157,8 +154,20 @@ body{
         justify-content: center;
         /* align-items: center; */
     }
-    .container .bigcard .card h2{
-        /* max-width: 365px */
+    /* .container .bigcard .card h2{
+        max-width: 365px
+    } */
+    .banner{
+        top: 45%;
+        left: 78%;
+        width: 29%;
+        padding: 0 25px;
+        height: 50px;
+        border-radius: 10px;
+        /* max-width: 200px; */
+    }
+    .banner .share{
+        display: none;
     }
 }
 @media (min-width: 720px) {

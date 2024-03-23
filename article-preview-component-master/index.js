@@ -7,13 +7,13 @@ console.log(bannerCard)
 
 for(i=0;i<shareBtn.length;i++){
     shareBtn[i].addEventListener("click", function(){
-        if(profileCard.classList.contains("hide")){
-            profileCard.classList.remove("hide");
-            bannerCard.classList.add("hide");
+        if(bannerCard.classList.contains("hide")){
+            // profileCard.classList.remove("hide");
+            bannerCard.classList.remove("hide");
         }
         else{
-            profileCard.classList.add("hide");
-            bannerCard.classList.remove("hide");
+            // profileCard.classList.add("hide");
+            bannerCard.classList.add("hide");
         }
     });
 }
